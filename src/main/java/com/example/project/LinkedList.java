@@ -55,9 +55,7 @@ public class LinkedList<T> implements List<T>{
         }
     }
     public T mostFrequentElement() {
-        if (head == null) {
-            throw new IllegalStateException("The list is empty.");
-        }
+    
 
         Node<T> el = head;
         Node<T> mostfreq = el;
