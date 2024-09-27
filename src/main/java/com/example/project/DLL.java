@@ -77,8 +77,9 @@ public class DLL<T> {
     		i = i.next ;
     		
     	}
-    	if(tmp == null || tmp2 == null )
+    	if(tmp == null || tmp2 == null || tmp.next == tmp2  )
     		return ;
+    	
     	current = tmp.next;
     	while(current != tmp2) {
     		DLLNode<T> tmp1 =current  ; 
